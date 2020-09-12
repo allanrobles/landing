@@ -1,0 +1,75 @@
+/* Your card CSS file */
+/*Positioning
+Box model
+Typographic
+Visual
+Misc*/
+
+
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+.card {
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card img {
+  height: 100px;
+  object-fit: cover;
+}
+
+.card p {
+  opacity: 0.5;
+}
+
+
+
+
+
+.card-category {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/breakfast.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  color: white;
+  text-decoration: bold;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px rgb(0,0,0,0.1);
+
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+
+.card-trip {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+
+}
+
+.card-trip img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip-footer {
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
